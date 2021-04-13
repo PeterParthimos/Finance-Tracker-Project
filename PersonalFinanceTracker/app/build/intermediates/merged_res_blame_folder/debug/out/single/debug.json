@@ -1,5 +1,9 @@
 [
     {
+        "merged": "D:\\Programming\\Android\\AppDev2\\PersonalFinanceTracker\\PersonalFinanceTracker\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_set_budget.xml.flat",
+        "source": "D:\\Programming\\Android\\AppDev2\\PersonalFinanceTracker\\PersonalFinanceTracker\\app\\src\\main\\res\\layout\\activity_set_budget.xml"
+    },
+    {
         "merged": "D:\\Programming\\Android\\AppDev2\\PersonalFinanceTracker\\PersonalFinanceTracker\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
         "source": "D:\\Programming\\Android\\AppDev2\\PersonalFinanceTracker\\PersonalFinanceTracker\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },

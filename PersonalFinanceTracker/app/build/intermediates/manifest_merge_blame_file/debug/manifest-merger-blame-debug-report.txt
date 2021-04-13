@@ -11,7 +11,7 @@
 9-->D:\Programming\Android\AppDev2\PersonalFinanceTracker\PersonalFinanceTracker\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->D:\Programming\Android\AppDev2\PersonalFinanceTracker\PersonalFinanceTracker\app\src\main\AndroidManifest.xml:5:5-20:19
+11-->D:\Programming\Android\AppDev2\PersonalFinanceTracker\PersonalFinanceTracker\app\src\main\AndroidManifest.xml:5:5-22:19
 12        android:allowBackup="true"
 12-->D:\Programming\Android\AppDev2\PersonalFinanceTracker\PersonalFinanceTracker\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -29,23 +29,29 @@
 20        android:testOnly="true"
 21        android:theme="@style/Theme.PersonalFinanceTracker" >
 21-->D:\Programming\Android\AppDev2\PersonalFinanceTracker\PersonalFinanceTracker\app\src\main\AndroidManifest.xml:11:9-60
-22        <activity android:name="com.peterparthimos.personalfinancetracker.Register" />
-22-->D:\Programming\Android\AppDev2\PersonalFinanceTracker\PersonalFinanceTracker\app\src\main\AndroidManifest.xml:12:9-55
-22-->D:\Programming\Android\AppDev2\PersonalFinanceTracker\PersonalFinanceTracker\app\src\main\AndroidManifest.xml:12:19-43
-23        <activity android:name="com.peterparthimos.personalfinancetracker.MainActivity" >
-23-->D:\Programming\Android\AppDev2\PersonalFinanceTracker\PersonalFinanceTracker\app\src\main\AndroidManifest.xml:13:9-19:20
-23-->D:\Programming\Android\AppDev2\PersonalFinanceTracker\PersonalFinanceTracker\app\src\main\AndroidManifest.xml:13:19-47
-24            <intent-filter>
-24-->D:\Programming\Android\AppDev2\PersonalFinanceTracker\PersonalFinanceTracker\app\src\main\AndroidManifest.xml:14:13-18:29
-25                <action android:name="android.intent.action.MAIN" />
-25-->D:\Programming\Android\AppDev2\PersonalFinanceTracker\PersonalFinanceTracker\app\src\main\AndroidManifest.xml:15:17-69
-25-->D:\Programming\Android\AppDev2\PersonalFinanceTracker\PersonalFinanceTracker\app\src\main\AndroidManifest.xml:15:25-66
-26
-27                <category android:name="android.intent.category.LAUNCHER" />
-27-->D:\Programming\Android\AppDev2\PersonalFinanceTracker\PersonalFinanceTracker\app\src\main\AndroidManifest.xml:17:17-77
-27-->D:\Programming\Android\AppDev2\PersonalFinanceTracker\PersonalFinanceTracker\app\src\main\AndroidManifest.xml:17:27-74
-28            </intent-filter>
-29        </activity>
-30    </application>
-31
-32</manifest>
+22        <activity android:name="com.peterparthimos.personalfinancetracker.SetBudget" />
+22-->D:\Programming\Android\AppDev2\PersonalFinanceTracker\PersonalFinanceTracker\app\src\main\AndroidManifest.xml:12:9-56
+22-->D:\Programming\Android\AppDev2\PersonalFinanceTracker\PersonalFinanceTracker\app\src\main\AndroidManifest.xml:12:19-44
+23        <activity android:name="com.peterparthimos.personalfinancetracker.Register" />
+23-->D:\Programming\Android\AppDev2\PersonalFinanceTracker\PersonalFinanceTracker\app\src\main\AndroidManifest.xml:13:9-46
+23-->D:\Programming\Android\AppDev2\PersonalFinanceTracker\PersonalFinanceTracker\app\src\main\AndroidManifest.xml:13:19-43
+24        <activity android:name="com.peterparthimos.personalfinancetracker.Dashboard" />
+24-->D:\Programming\Android\AppDev2\PersonalFinanceTracker\PersonalFinanceTracker\app\src\main\AndroidManifest.xml:14:9-47
+24-->D:\Programming\Android\AppDev2\PersonalFinanceTracker\PersonalFinanceTracker\app\src\main\AndroidManifest.xml:14:19-44
+25        <activity android:name="com.peterparthimos.personalfinancetracker.MainActivity" >
+25-->D:\Programming\Android\AppDev2\PersonalFinanceTracker\PersonalFinanceTracker\app\src\main\AndroidManifest.xml:15:9-21:20
+25-->D:\Programming\Android\AppDev2\PersonalFinanceTracker\PersonalFinanceTracker\app\src\main\AndroidManifest.xml:15:19-47
+26            <intent-filter>
+26-->D:\Programming\Android\AppDev2\PersonalFinanceTracker\PersonalFinanceTracker\app\src\main\AndroidManifest.xml:16:13-20:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->D:\Programming\Android\AppDev2\PersonalFinanceTracker\PersonalFinanceTracker\app\src\main\AndroidManifest.xml:17:17-69
+27-->D:\Programming\Android\AppDev2\PersonalFinanceTracker\PersonalFinanceTracker\app\src\main\AndroidManifest.xml:17:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->D:\Programming\Android\AppDev2\PersonalFinanceTracker\PersonalFinanceTracker\app\src\main\AndroidManifest.xml:19:17-77
+29-->D:\Programming\Android\AppDev2\PersonalFinanceTracker\PersonalFinanceTracker\app\src\main\AndroidManifest.xml:19:27-74
+30            </intent-filter>
+31        </activity>
+32    </application>
+33
+34</manifest>

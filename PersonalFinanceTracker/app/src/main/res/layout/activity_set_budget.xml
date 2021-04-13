@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SetBudget">
+
+    <TextView
+        android:id="@+id/editBudgetLabel"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="@color/MoonstoneBlue"
+        android:gravity="center"
+        android:text="Edit Your Budget"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/currentBudget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current Budget: $1000"
+        android:textSize="21dp"
+        app:layout_constraintBottom_toTopOf="@+id/newBudget"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editBudgetLabel" />
+
+    <EditText
+        android:id="@+id/newBudget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="New Budget"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/submitBudget"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/currentBudget" />
+
+    <Button
+        android:id="@+id/submitBudget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/MorningBlue"
+        android:text="Submit"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/cancelBudget"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newBudget" />
+
+    <Button
+        android:id="@+id/cancelBudget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/GlossyGrape"
+        android:text="Cancel"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/submitBudget" />
+</androidx.constraintlayout.widget.ConstraintLayout>

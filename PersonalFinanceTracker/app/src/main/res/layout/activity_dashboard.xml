@@ -7,12 +7,12 @@
     tools:context=".Dashboard">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/helloLabel"
         android:layout_width="0dp"
         android:layout_height="60dp"
         android:background="#7ABACA"
         android:gravity="center"
-        android:text="Hello, Sakku!"
+        android:text="Hello, User!"
         android:textColor="#FFFFFF"
         android:textSize="24dp"
         android:textStyle="bold"
@@ -21,21 +21,22 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/remainingBalance"
         android:layout_width="wrap_content"
         android:layout_height="75dp"
+        android:layout_marginTop="8dp"
         android:gravity="center_vertical"
         android:paddingLeft="10dp"
-        android:text="$500"
+        android:text="$1000"
         android:textColor="@color/VegasGold"
         android:textSize="40dp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintBottom_toTopOf="@+id/recentPurchasesLabel"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/helloLabel" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/budget"
         android:layout_width="0dp"
         android:layout_height="75dp"
         android:gravity="center_vertical"
@@ -43,14 +44,14 @@
         android:paddingTop="10dp"
         android:text="of $1000 Remaining"
         android:textSize="15dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintBottom_toTopOf="@+id/recentPurchasesLabel"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/textView3"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintStart_toEndOf="@+id/remainingBalance"
+        app:layout_constraintTop_toBottomOf="@+id/helloLabel" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/recentPurchasesLabel"
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:gravity="center"
@@ -58,24 +59,14 @@
         android:textColor="#AC96B7"
         android:textSize="20dp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/recyclerView"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerView"
-        android:layout_width="0dp"
-        android:layout_height="175dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView6"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        app:layout_constraintTop_toBottomOf="@+id/remainingBalance" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/subscriptionLabel"
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:gravity="center"
@@ -83,36 +74,26 @@
         android:textColor="#AC96B7"
         android:textSize="18dp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/recyclerView3"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/recyclerView" />
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerView3"
-        android:layout_width="0dp"
-        android:layout_height="150dp"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/editBudgetButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/Grullo"
         android:text="Edit Budget"
         android:textSize="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button4"
+        app:layout_constraintEnd_toStartOf="@+id/averageExpenseButton"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/addExpenseButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/MorningBlue"
@@ -121,18 +102,44 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/button4" />
+        app:layout_constraintStart_toEndOf="@+id/averageExpenseButton" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/averageExpenseButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/ParrotPink"
         android:text="Average Expenses"
         android:textSize="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button3"
+        app:layout_constraintEnd_toStartOf="@+id/addExpenseButton"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/button2" />
+        app:layout_constraintStart_toEndOf="@+id/editBudgetButton" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="160dp"
+        android:background="#EAEAEA"
+        android:gravity="center"
+        android:text="Coming Soon!"
+        app:layout_constraintBottom_toTopOf="@+id/subscriptionLabel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recentPurchasesLabel" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="120dp"
+        android:background="#EAEAEA"
+        android:gravity="center"
+        android:text="Coming Soon!"
+        app:layout_constraintBottom_toTopOf="@+id/editBudgetButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subscriptionLabel" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1758,6 +1758,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id addExpenseButton
 id alertTitle
 id aligned
 id all
@@ -1770,6 +1771,7 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id averageExpenseButton
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -1777,11 +1779,10 @@ id beginning
 id blocking
 id bottom
 id bounce
-id button2
-id button3
-id button4
+id budget
 id buttonPanel
 id cache_measures
+id cancelBudget
 id cancelButton
 id cancel_button
 id center
@@ -1811,6 +1812,7 @@ id contiguous
 id coordinator
 id cos
 id counterclockwise
+id currentBudget
 id custom
 id customPanel
 id cut
@@ -1843,6 +1845,8 @@ id dropdown_menu
 id easeIn
 id easeInOut
 id easeOut
+id editBudgetButton
+id editBudgetLabel
 id edit_query
 id elastic
 id end
@@ -1873,6 +1877,7 @@ id grouping
 id groups
 id guideline
 id header_title
+id helloLabel
 id hideable
 id home
 id homeAsUp
@@ -1960,6 +1965,7 @@ id mtrl_view_tag_bottom_padding
 id multiply
 id navigation_header_container
 id never
+id newBudget
 id noScroll
 id none
 id normal
@@ -1990,12 +1996,12 @@ id progress_circular
 id progress_horizontal
 id radio
 id ratio
+id recentPurchasesLabel
 id rectangles
-id recyclerView
-id recyclerView3
 id registerButton
 id registerButtonLogin
 id registerLabel
+id remainingBalance
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2057,7 +2063,9 @@ id staticPostLayout
 id stop
 id stretch
 id submenuarrow
+id submitBudget
 id submit_area
+id subscriptionLabel
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -2079,10 +2087,7 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
-id textView3
-id textView4
-id textView5
-id textView6
+id textView2
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2185,6 +2190,7 @@ layout abc_tooltip
 layout activity_dashboard
 layout activity_main
 layout activity_register
+layout activity_set_budget
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
