@@ -22,6 +22,7 @@
         <activity android:name="com.peterparthimos.personalfinancetracker.SetBudget" />
         <activity android:name="com.peterparthimos.personalfinancetracker.Register" />
         <activity android:name="com.peterparthimos.personalfinancetracker.Dashboard" />
+        <activity android:name="com.peterparthimos.personalfinancetracker.Purchase" />
         <activity android:name="com.peterparthimos.personalfinancetracker.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

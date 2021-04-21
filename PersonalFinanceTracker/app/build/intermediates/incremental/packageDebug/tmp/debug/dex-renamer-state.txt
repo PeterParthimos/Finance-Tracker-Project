@@ -1,7 +1,7 @@
-#Mon Apr 12 20:12:16 EDT 2021
-base.0=D\:\\Programming\\Android\\AppDev2\\PersonalFinanceTracker\\PersonalFinanceTracker\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+#Tue Apr 20 20:05:27 EDT 2021
+base.0=C\:\\Users\\kille\\AndroidStudioProjects\\PersonalFinanceTracker\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=D\:\\Programming\\Android\\AppDev2\\PersonalFinanceTracker\\PersonalFinanceTracker\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
+base.1=C\:\\Users\\kille\\AndroidStudioProjects\\PersonalFinanceTracker\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex

@@ -7,6 +7,8 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import androidx.annotation.Nullable;
 
+import java.util.ArrayList;
+
 public class DBConnector extends SQLiteOpenHelper {
     public static final String DATABASE_NAME = "Finance.db";
     public static final int DATABASE_VERSION = 1;
@@ -50,7 +52,8 @@ public class DBConnector extends SQLiteOpenHelper {
 
     public Cursor login(String username, String password) {
         SQLiteDatabase db = this.getWritableDatabase();
-        Cursor result = db.rawQuery("SELECT * FROM " + TABLE_1_NAME + " WHERE username = ? AND password = ?", new String[] {username, password});
+        Cursor result = db.rawQuery("SELECT * FROM " + TABLE_1_NAME + " WHERE username = ? AND password = ?",
+                new String[] {username, password});
         return result;
     }
 
@@ -60,5 +63,32 @@ public class DBConnector extends SQLiteOpenHelper {
         values.put("budget", newBudget);
         db.update(TABLE_1_NAME, values, "username = ?", new String[] {username});
         return true;
+    }
+
+    public boolean addPurchase(String username, String name, int amount, String date) {
+        SQLiteDatabase db = this.getWritableDatabase();
+        ContentValues values = new ContentValues();
+        values.put("username", username);
+        values.put("name", name);
+        values.put("amount", amount);
+        values.put("purchaseDate", date);
+        long result = db.insert(TABLE_2_NAME, null, values);
+        db.close();
+        return result != -1;
+    }
+
+    public Cursor getAllPurchases(String username, ArrayList<String> prices, ArrayList<String> dates, ArrayList<String> names) {
+        SQLiteDatabase db = this.getReadableDatabase();
+        Cursor c = db.rawQuery("SELECT amount, name, purchaseDate FROM " + TABLE_2_NAME
+                + " WHERE username = ?", new String[] {username});
+        if(c.moveToFirst()) {
+            while(!c.isAfterLast()) {
+                prices.add(c.getString(c.getColumnIndex("amount")));
+                dates.add(c.getString(c.getColumnIndex("purchaseDate")));
+                names.add(c.getString(c.getColumnIndex("name")));
+                c.moveToNext();
+            }
+        }
+        return c;
     }
 }
