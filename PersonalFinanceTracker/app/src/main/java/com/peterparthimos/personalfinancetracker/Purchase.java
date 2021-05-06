@@ -34,9 +34,9 @@ public class Purchase extends AppCompatActivity {
 
                 if(!n.equals("") || !a.equals("") || !d.equals("")) {
                     int cost = Integer.parseInt(a);
-                    RecentPurchases.username = User.username;
-                    boolean isAdded = db.addPurchase(RecentPurchases.username, n, cost, d);
+                    boolean isAdded = db.addPurchase(User.username, n, cost, d);
                     if(isAdded) {
+                        db.updateSpent(User.username, User.spent, cost);
                         Toast.makeText(submit.getContext(), "Successfully Added Payment!", Toast.LENGTH_LONG).show();
                         Intent i = new Intent(submit.getContext(), Dashboard.class);
                         startActivity(i);

@@ -91,4 +91,13 @@ public class DBConnector extends SQLiteOpenHelper {
         }
         return c;
     }
+
+    public boolean updateSpent(String username, int spent, int purchase) {
+        SQLiteDatabase db = this.getWritableDatabase();
+        ContentValues values = new ContentValues();
+        int finalSpent = spent + purchase;
+        values.put("spent", finalSpent);
+        db.update(TABLE_1_NAME, values, "username = ?", new String[] {username});
+        return true;
+    }
 }

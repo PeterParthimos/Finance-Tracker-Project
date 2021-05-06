@@ -2,24 +2,13 @@ com/peterparthimos/personalfinancetracker/DBConnector.java
  com.peterparthimos.personalfinancetracker.DBConnector
 com/peterparthimos/personalfinancetracker/Subscription.java
  com.peterparthimos.personalfinancetracker.Subscription
-com/peterparthimos/personalfinancetracker/RecentPurchases.java
- com.peterparthimos.personalfinancetracker.RecentPurchases
-com/peterparthimos/personalfinancetracker/BuildConfig.java
- com.peterparthimos.personalfinancetracker.BuildConfig
-com/peterparthimos/personalfinancetracker/User.java
- com.peterparthimos.personalfinancetracker.User
-com/peterparthimos/personalfinancetracker/Register.java
- com.peterparthimos.personalfinancetracker.Register
- com.peterparthimos.personalfinancetracker.Register$1
- com.peterparthimos.personalfinancetracker.Register$2
-com/peterparthimos/personalfinancetracker/MyRecyclerViewAdapter.java
- com.peterparthimos.personalfinancetracker.MyRecyclerViewAdapter
- com.peterparthimos.personalfinancetracker.MyRecyclerViewAdapter$ViewHolder
 com/peterparthimos/personalfinancetracker/Dashboard.java
  com.peterparthimos.personalfinancetracker.Dashboard
  com.peterparthimos.personalfinancetracker.Dashboard$1
  com.peterparthimos.personalfinancetracker.Dashboard$2
  com.peterparthimos.personalfinancetracker.Dashboard$3
+com/peterparthimos/personalfinancetracker/BuildConfig.java
+ com.peterparthimos.personalfinancetracker.BuildConfig
 com/peterparthimos/personalfinancetracker/SetBudget.java
  com.peterparthimos.personalfinancetracker.SetBudget
  com.peterparthimos.personalfinancetracker.SetBudget$1
@@ -28,7 +17,18 @@ com/peterparthimos/personalfinancetracker/Purchase.java
  com.peterparthimos.personalfinancetracker.Purchase
  com.peterparthimos.personalfinancetracker.Purchase$1
  com.peterparthimos.personalfinancetracker.Purchase$2
+com/peterparthimos/personalfinancetracker/MyRecyclerViewAdapter.java
+ com.peterparthimos.personalfinancetracker.MyRecyclerViewAdapter
+ com.peterparthimos.personalfinancetracker.MyRecyclerViewAdapter$ViewHolder
 com/peterparthimos/personalfinancetracker/MainActivity.java
  com.peterparthimos.personalfinancetracker.MainActivity
  com.peterparthimos.personalfinancetracker.MainActivity$1
  com.peterparthimos.personalfinancetracker.MainActivity$2
+com/peterparthimos/personalfinancetracker/Register.java
+ com.peterparthimos.personalfinancetracker.Register
+ com.peterparthimos.personalfinancetracker.Register$1
+ com.peterparthimos.personalfinancetracker.Register$2
+com/peterparthimos/personalfinancetracker/User.java
+ com.peterparthimos.personalfinancetracker.User
+com/peterparthimos/personalfinancetracker/RecentPurchases.java
+ com.peterparthimos.personalfinancetracker.RecentPurchases
