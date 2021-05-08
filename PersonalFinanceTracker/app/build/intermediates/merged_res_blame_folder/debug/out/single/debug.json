@@ -16,6 +16,10 @@
         "source": "C:\\Users\\kille\\AndroidStudioProjects\\PersonalFinanceTracker\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "C:\\Users\\kille\\AndroidStudioProjects\\PersonalFinanceTracker\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_subscriptions.xml.flat",
+        "source": "C:\\Users\\kille\\AndroidStudioProjects\\PersonalFinanceTracker\\app\\src\\main\\res\\layout\\activity_subscriptions.xml"
+    },
+    {
         "merged": "C:\\Users\\kille\\AndroidStudioProjects\\PersonalFinanceTracker\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_register.xml.flat",
         "source": "C:\\Users\\kille\\AndroidStudioProjects\\PersonalFinanceTracker\\app\\src\\main\\res\\layout\\activity_register.xml"
     },
@@ -34,6 +38,10 @@
     {
         "merged": "C:\\Users\\kille\\AndroidStudioProjects\\PersonalFinanceTracker\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\kille\\AndroidStudioProjects\\PersonalFinanceTracker\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\kille\\AndroidStudioProjects\\PersonalFinanceTracker\\app\\build\\intermediates\\res\\merged\\debug\\layout_subscriptions_list.xml.flat",
+        "source": "C:\\Users\\kille\\AndroidStudioProjects\\PersonalFinanceTracker\\app\\src\\main\\res\\layout\\subscriptions_list.xml"
     },
     {
         "merged": "C:\\Users\\kille\\AndroidStudioProjects\\PersonalFinanceTracker\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",

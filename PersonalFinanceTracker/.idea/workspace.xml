@@ -77,6 +77,9 @@
     <key name="android.template.-642036485">
       <recent name="com.peterparthimos.personalfinancetracker" />
     </key>
+    <key name="android.template.-742564699">
+      <recent name="com.peterparthimos.personalfinancetracker" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -180,19 +183,19 @@
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="1511" y="504" key="#com.intellij.fileTypes.FileTypeChooser/0.0.3440.1400@0.0.3440.1400" timestamp="1618271459428" />
-    <state x="1251" y="302" key="#com.intellij.ide.util.MemberChooser" timestamp="1618955106953">
+    <state x="1251" y="302" key="#com.intellij.ide.util.MemberChooser" timestamp="1620497439040">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1251" y="302" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1618955106953" />
+    <state x="1251" y="302" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1620497439040" />
     <state x="2242" y="406" key="#com.intellij.ide.util.MemberChooser/0.0.3440.1400@0.0.3440.1400" timestamp="1618265805266" />
     <state x="92" y="92" width="1736" height="856" key="AVDManager" timestamp="1620262492748">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="AVDManager/0.0.1920.1040@0.0.1920.1040" timestamp="1620262492748" />
-    <state x="540" y="275" key="AndroidCreateResourceFileDialog" timestamp="1618877023190">
+    <state x="540" y="275" key="AndroidCreateResourceFileDialog" timestamp="1620497658944">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="540" y="275" key="AndroidCreateResourceFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1618877023190" />
+    <state x="540" y="275" key="AndroidCreateResourceFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1620497658944" />
     <state x="1001" y="339" key="FileChooserDialogImpl" timestamp="1620262353787">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

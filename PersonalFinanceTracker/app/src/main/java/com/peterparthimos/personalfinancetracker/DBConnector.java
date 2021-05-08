@@ -92,6 +92,33 @@ public class DBConnector extends SQLiteOpenHelper {
         return c;
     }
 
+    public boolean addSubscription(String username, String name, int amount, String renewDate) {
+        SQLiteDatabase db = this.getWritableDatabase();
+        ContentValues values = new ContentValues();
+        values.put("username", username);
+        values.put("name", name);
+        values.put("amount", amount);
+        values.put("renewDate", renewDate);
+        long result = db.insert(TABLE_3_NAME, null, values);
+        db.close();
+        return result != -1;
+    }
+
+    public Cursor getAllSubscriptions(String username, ArrayList<String> prices, ArrayList<String> dates, ArrayList<String> names) {
+        SQLiteDatabase db = this.getReadableDatabase();
+        Cursor c = db.rawQuery("SELECT amount, name, renewDate FROM " + TABLE_3_NAME
+                + " WHERE username = ?", new String[] {username});
+        if(c.moveToFirst()) {
+            while(!c.isAfterLast()) {
+                prices.add(c.getString(c.getColumnIndex("amount")));
+                dates.add(c.getString(c.getColumnIndex("renewDate")));
+                names.add(c.getString(c.getColumnIndex("name")));
+                c.moveToNext();
+            }
+        }
+        return c;
+    }
+
     public boolean updateSpent(String username, int spent, int purchase) {
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues values = new ContentValues();

@@ -9,10 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PersonalFinanceTracker">
-        <activity android:name=".SetBudget"></activity>
+        <activity android:name=".Subscriptions"></activity>
+        <activity android:name=".SetBudget" />
         <activity android:name=".Register" />
         <activity android:name=".Dashboard" />
-        <activity android:name=".Purchase"></activity>
+        <activity android:name=".Purchase" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

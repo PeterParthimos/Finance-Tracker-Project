@@ -18,10 +18,15 @@ public class Dashboard extends AppCompatActivity {
     Button editBudget, averageExpenses, addExpense;
     TextView hello, remaining, budget;
     MyRecyclerViewAdapter adapter;
+    SubscriptionsRecyclerViewAdapter subscriptionsAdapter;
     DBConnector dbConnector;
     ArrayList<String> prices = new ArrayList<>();
     ArrayList<String> names = new ArrayList<>();
     ArrayList<String> dates = new ArrayList<>();
+
+    ArrayList<String> monthlyPrices = new ArrayList<>();
+    ArrayList<String> subscriptionNames = new ArrayList<>();
+    ArrayList<String> dueDates = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +39,12 @@ public class Dashboard extends AppCompatActivity {
         adapter = new MyRecyclerViewAdapter(prices, dates, names, this);
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
+
+        RecyclerView subscriptionsView = findViewById(R.id.subscriptionRecycler);
+        dbConnector.getAllSubscriptions(User.username, monthlyPrices, dueDates, subscriptionNames);
+        subscriptionsAdapter = new SubscriptionsRecyclerViewAdapter(monthlyPrices, dueDates, subscriptionNames, this);
+        subscriptionsView.setAdapter(subscriptionsAdapter);
+        subscriptionsView.setLayoutManager(new LinearLayoutManager(this));
 
         hello = findViewById(R.id.helloLabel);
         remaining = findViewById(R.id.remainingBalance);
