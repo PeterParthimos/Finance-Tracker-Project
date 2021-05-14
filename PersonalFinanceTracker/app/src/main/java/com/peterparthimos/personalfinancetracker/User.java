@@ -4,7 +4,7 @@ public class User {
     public static String username;
     public static String fname;
     public static String lname;
-    public static int budget;
-    public static int spent;
-    public static int average;
+    public static double budget;
+    public static double spent;
+    public static double average;
 }

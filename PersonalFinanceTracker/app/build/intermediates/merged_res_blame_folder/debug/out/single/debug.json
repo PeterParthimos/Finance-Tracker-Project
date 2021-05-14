@@ -1,90 +1,94 @@
 [
     {
-        "merged": "C:\\Users\\kille\\AndroidStudioProjects\\PersonalFinanceTracker\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\kille\\AndroidStudioProjects\\PersonalFinanceTracker\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "D:\\Programming\\Android\\PersonalFinanceTracker\\PersonalFinanceTracker\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Programming\\Android\\PersonalFinanceTracker\\PersonalFinanceTracker\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\kille\\AndroidStudioProjects\\PersonalFinanceTracker\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\kille\\AndroidStudioProjects\\PersonalFinanceTracker\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+        "merged": "D:\\Programming\\Android\\PersonalFinanceTracker\\PersonalFinanceTracker\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\Programming\\Android\\PersonalFinanceTracker\\PersonalFinanceTracker\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\kille\\AndroidStudioProjects\\PersonalFinanceTracker\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\kille\\AndroidStudioProjects\\PersonalFinanceTracker\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "D:\\Programming\\Android\\PersonalFinanceTracker\\PersonalFinanceTracker\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_purchase.xml.flat",
+        "source": "D:\\Programming\\Android\\PersonalFinanceTracker\\PersonalFinanceTracker\\app\\src\\main\\res\\layout\\activity_purchase.xml"
     },
     {
-        "merged": "C:\\Users\\kille\\AndroidStudioProjects\\PersonalFinanceTracker\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\kille\\AndroidStudioProjects\\PersonalFinanceTracker\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "D:\\Programming\\Android\\PersonalFinanceTracker\\PersonalFinanceTracker\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_average.xml.flat",
+        "source": "D:\\Programming\\Android\\PersonalFinanceTracker\\PersonalFinanceTracker\\app\\src\\main\\res\\layout\\activity_average.xml"
     },
     {
-        "merged": "C:\\Users\\kille\\AndroidStudioProjects\\PersonalFinanceTracker\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_subscriptions.xml.flat",
-        "source": "C:\\Users\\kille\\AndroidStudioProjects\\PersonalFinanceTracker\\app\\src\\main\\res\\layout\\activity_subscriptions.xml"
+        "merged": "D:\\Programming\\Android\\PersonalFinanceTracker\\PersonalFinanceTracker\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\Programming\\Android\\PersonalFinanceTracker\\PersonalFinanceTracker\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\kille\\AndroidStudioProjects\\PersonalFinanceTracker\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_register.xml.flat",
-        "source": "C:\\Users\\kille\\AndroidStudioProjects\\PersonalFinanceTracker\\app\\src\\main\\res\\layout\\activity_register.xml"
+        "merged": "D:\\Programming\\Android\\PersonalFinanceTracker\\PersonalFinanceTracker\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_set_budget.xml.flat",
+        "source": "D:\\Programming\\Android\\PersonalFinanceTracker\\PersonalFinanceTracker\\app\\src\\main\\res\\layout\\activity_set_budget.xml"
     },
     {
-        "merged": "C:\\Users\\kille\\AndroidStudioProjects\\PersonalFinanceTracker\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_dashboard.xml.flat",
-        "source": "C:\\Users\\kille\\AndroidStudioProjects\\PersonalFinanceTracker\\app\\src\\main\\res\\layout\\activity_dashboard.xml"
+        "merged": "D:\\Programming\\Android\\PersonalFinanceTracker\\PersonalFinanceTracker\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\Programming\\Android\\PersonalFinanceTracker\\PersonalFinanceTracker\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\kille\\AndroidStudioProjects\\PersonalFinanceTracker\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_purchase.xml.flat",
-        "source": "C:\\Users\\kille\\AndroidStudioProjects\\PersonalFinanceTracker\\app\\src\\main\\res\\layout\\activity_purchase.xml"
+        "merged": "D:\\Programming\\Android\\PersonalFinanceTracker\\PersonalFinanceTracker\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_dashboard.xml.flat",
+        "source": "D:\\Programming\\Android\\PersonalFinanceTracker\\PersonalFinanceTracker\\app\\src\\main\\res\\layout\\activity_dashboard.xml"
     },
     {
-        "merged": "C:\\Users\\kille\\AndroidStudioProjects\\PersonalFinanceTracker\\app\\build\\intermediates\\res\\merged\\debug\\layout_purchase_list.xml.flat",
-        "source": "C:\\Users\\kille\\AndroidStudioProjects\\PersonalFinanceTracker\\app\\src\\main\\res\\layout\\purchase_list.xml"
+        "merged": "D:\\Programming\\Android\\PersonalFinanceTracker\\PersonalFinanceTracker\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_date_picker.xml.flat",
+        "source": "D:\\Programming\\Android\\PersonalFinanceTracker\\PersonalFinanceTracker\\app\\src\\main\\res\\layout\\fragment_date_picker.xml"
     },
     {
-        "merged": "C:\\Users\\kille\\AndroidStudioProjects\\PersonalFinanceTracker\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\kille\\AndroidStudioProjects\\PersonalFinanceTracker\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "D:\\Programming\\Android\\PersonalFinanceTracker\\PersonalFinanceTracker\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\Programming\\Android\\PersonalFinanceTracker\\PersonalFinanceTracker\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\kille\\AndroidStudioProjects\\PersonalFinanceTracker\\app\\build\\intermediates\\res\\merged\\debug\\layout_subscriptions_list.xml.flat",
-        "source": "C:\\Users\\kille\\AndroidStudioProjects\\PersonalFinanceTracker\\app\\src\\main\\res\\layout\\subscriptions_list.xml"
+        "merged": "D:\\Programming\\Android\\PersonalFinanceTracker\\PersonalFinanceTracker\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\Programming\\Android\\PersonalFinanceTracker\\PersonalFinanceTracker\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\kille\\AndroidStudioProjects\\PersonalFinanceTracker\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\kille\\AndroidStudioProjects\\PersonalFinanceTracker\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "D:\\Programming\\Android\\PersonalFinanceTracker\\PersonalFinanceTracker\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_register.xml.flat",
+        "source": "D:\\Programming\\Android\\PersonalFinanceTracker\\PersonalFinanceTracker\\app\\src\\main\\res\\layout\\activity_register.xml"
     },
     {
-        "merged": "C:\\Users\\kille\\AndroidStudioProjects\\PersonalFinanceTracker\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\kille\\AndroidStudioProjects\\PersonalFinanceTracker\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "D:\\Programming\\Android\\PersonalFinanceTracker\\PersonalFinanceTracker\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\Programming\\Android\\PersonalFinanceTracker\\PersonalFinanceTracker\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\kille\\AndroidStudioProjects\\PersonalFinanceTracker\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\kille\\AndroidStudioProjects\\PersonalFinanceTracker\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "D:\\Programming\\Android\\PersonalFinanceTracker\\PersonalFinanceTracker\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\Programming\\Android\\PersonalFinanceTracker\\PersonalFinanceTracker\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\kille\\AndroidStudioProjects\\PersonalFinanceTracker\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\kille\\AndroidStudioProjects\\PersonalFinanceTracker\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "D:\\Programming\\Android\\PersonalFinanceTracker\\PersonalFinanceTracker\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Programming\\Android\\PersonalFinanceTracker\\PersonalFinanceTracker\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\kille\\AndroidStudioProjects\\PersonalFinanceTracker\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\kille\\AndroidStudioProjects\\PersonalFinanceTracker\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "D:\\Programming\\Android\\PersonalFinanceTracker\\PersonalFinanceTracker\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Programming\\Android\\PersonalFinanceTracker\\PersonalFinanceTracker\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\kille\\AndroidStudioProjects\\PersonalFinanceTracker\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\kille\\AndroidStudioProjects\\PersonalFinanceTracker\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "D:\\Programming\\Android\\PersonalFinanceTracker\\PersonalFinanceTracker\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\Programming\\Android\\PersonalFinanceTracker\\PersonalFinanceTracker\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\kille\\AndroidStudioProjects\\PersonalFinanceTracker\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\kille\\AndroidStudioProjects\\PersonalFinanceTracker\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "D:\\Programming\\Android\\PersonalFinanceTracker\\PersonalFinanceTracker\\app\\build\\intermediates\\res\\merged\\debug\\layout_purchase_list.xml.flat",
+        "source": "D:\\Programming\\Android\\PersonalFinanceTracker\\PersonalFinanceTracker\\app\\src\\main\\res\\layout\\purchase_list.xml"
     },
     {
-        "merged": "C:\\Users\\kille\\AndroidStudioProjects\\PersonalFinanceTracker\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\kille\\AndroidStudioProjects\\PersonalFinanceTracker\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "D:\\Programming\\Android\\PersonalFinanceTracker\\PersonalFinanceTracker\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Programming\\Android\\PersonalFinanceTracker\\PersonalFinanceTracker\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\kille\\AndroidStudioProjects\\PersonalFinanceTracker\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\kille\\AndroidStudioProjects\\PersonalFinanceTracker\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+        "merged": "D:\\Programming\\Android\\PersonalFinanceTracker\\PersonalFinanceTracker\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Programming\\Android\\PersonalFinanceTracker\\PersonalFinanceTracker\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\kille\\AndroidStudioProjects\\PersonalFinanceTracker\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_set_budget.xml.flat",
-        "source": "C:\\Users\\kille\\AndroidStudioProjects\\PersonalFinanceTracker\\app\\src\\main\\res\\layout\\activity_set_budget.xml"
+        "merged": "D:\\Programming\\Android\\PersonalFinanceTracker\\PersonalFinanceTracker\\app\\build\\intermediates\\res\\merged\\debug\\layout_subscriptions_list.xml.flat",
+        "source": "D:\\Programming\\Android\\PersonalFinanceTracker\\PersonalFinanceTracker\\app\\src\\main\\res\\layout\\subscriptions_list.xml"
     },
     {
-        "merged": "C:\\Users\\kille\\AndroidStudioProjects\\PersonalFinanceTracker\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\kille\\AndroidStudioProjects\\PersonalFinanceTracker\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "D:\\Programming\\Android\\PersonalFinanceTracker\\PersonalFinanceTracker\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\Programming\\Android\\PersonalFinanceTracker\\PersonalFinanceTracker\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\Programming\\Android\\PersonalFinanceTracker\\PersonalFinanceTracker\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\Programming\\Android\\PersonalFinanceTracker\\PersonalFinanceTracker\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     }
 ]

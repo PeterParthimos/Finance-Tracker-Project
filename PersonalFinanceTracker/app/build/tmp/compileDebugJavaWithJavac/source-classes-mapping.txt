@@ -1,3 +1,6 @@
+com/peterparthimos/personalfinancetracker/Average.java
+ com.peterparthimos.personalfinancetracker.Average
+ com.peterparthimos.personalfinancetracker.Average$1
 com/peterparthimos/personalfinancetracker/DBConnector.java
  com.peterparthimos.personalfinancetracker.DBConnector
 com/peterparthimos/personalfinancetracker/Dashboard.java
@@ -13,19 +16,20 @@ com/peterparthimos/personalfinancetracker/Purchase.java
  com.peterparthimos.personalfinancetracker.Purchase
  com.peterparthimos.personalfinancetracker.Purchase$1
  com.peterparthimos.personalfinancetracker.Purchase$2
+ com.peterparthimos.personalfinancetracker.Purchase$3
 com/peterparthimos/personalfinancetracker/SubscriptionsRecyclerViewAdapter.java
  com.peterparthimos.personalfinancetracker.SubscriptionsRecyclerViewAdapter
  com.peterparthimos.personalfinancetracker.SubscriptionsRecyclerViewAdapter$ViewHolder
+com/peterparthimos/personalfinancetracker/DatePickerFragment.java
+ com.peterparthimos.personalfinancetracker.DatePickerFragment
 com/peterparthimos/personalfinancetracker/User.java
  com.peterparthimos.personalfinancetracker.User
 com/peterparthimos/personalfinancetracker/Subscription.java
  com.peterparthimos.personalfinancetracker.Subscription
+com/peterparthimos/personalfinancetracker/ReminderBroadcast.java
+ com.peterparthimos.personalfinancetracker.ReminderBroadcast
 com/peterparthimos/personalfinancetracker/BuildConfig.java
  com.peterparthimos.personalfinancetracker.BuildConfig
-com/peterparthimos/personalfinancetracker/Subscriptions.java
- com.peterparthimos.personalfinancetracker.Subscriptions
- com.peterparthimos.personalfinancetracker.Subscriptions$1
- com.peterparthimos.personalfinancetracker.Subscriptions$2
 com/peterparthimos/personalfinancetracker/MyRecyclerViewAdapter.java
  com.peterparthimos.personalfinancetracker.MyRecyclerViewAdapter
  com.peterparthimos.personalfinancetracker.MyRecyclerViewAdapter$ViewHolder

@@ -51,14 +51,15 @@ public class Dashboard extends AppCompatActivity {
         budget = findViewById(R.id.budget);
 
         hello.setText("Hello, " + User.fname + "!");
-        remaining.setText("$" + (User.budget - User.spent));
-        budget.setText("of $" + User.budget + " Remaining");
+        remaining.setText(String.format("$%.2f", (User.budget - User.spent)));
+        budget.setText(String.format("of $%.2f Remaining", User.budget));
 
         averageExpenses = findViewById(R.id.averageExpenseButton);
         averageExpenses.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(averageExpenses.getContext(), "Feature Coming Soon!", Toast.LENGTH_LONG).show();
+                Intent z = new Intent(averageExpenses.getContext(), Average.class);
+                startActivity(z);
             }
         });
 

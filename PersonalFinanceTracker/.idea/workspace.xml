@@ -33,7 +33,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Pixel_1]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -59,8 +59,8 @@
     <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Nexus_4_API_26" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-05-06T00:48:50.644Z" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_1" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-05-13T22:19:22.807Z" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
@@ -71,16 +71,19 @@
     <key name="android.template.1557645439">
       <recent name="com.peterparthimos.personalfinancetracker" />
     </key>
-    <key name="android.template.-1240368587">
+    <key name="android.template.-742564699">
       <recent name="com.peterparthimos.personalfinancetracker" />
     </key>
-    <key name="android.template.-642036485">
+    <key name="android.template.-617728677">
+      <recent name="com.peterparthimos.personalfinancetracker" />
+    </key>
+    <key name="android.template.-1240368587">
       <recent name="com.peterparthimos.personalfinancetracker" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.peterparthimos.personalfinancetracker" />
     </key>
-    <key name="android.template.-742564699">
+    <key name="android.template.-642036485">
       <recent name="com.peterparthimos.personalfinancetracker" />
     </key>
   </component>
@@ -191,6 +194,10 @@
     </state>
     <state x="1251" y="302" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1620497439040" />
     <state x="2242" y="406" key="#com.intellij.ide.util.MemberChooser/0.0.3440.1400@0.0.3440.1400" timestamp="1618265805266" />
+    <state x="1357" y="464" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1620950770702">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1357" y="464" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.3440.1400@0.0.3440.1400" timestamp="1620950770702" />
     <state x="92" y="92" width="1736" height="856" key="AVDManager" timestamp="1620262492748">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -204,30 +211,31 @@
     </state>
     <state x="1001" y="339" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1620262353787" />
     <state x="1793" y="456" key="FileChooserDialogImpl/0.0.3440.1400@0.0.3440.1400" timestamp="1618271464635" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1620262496233">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1949" height="379" key="GridCell.Tab.0.bottom" timestamp="1620959887134">
+      <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1620262496233" />
-    <state width="2630" height="384" key="GridCell.Tab.0.bottom/0.0.3440.1400@0.0.3440.1400" timestamp="1618272864043" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1620262496233">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1949" height="379" key="GridCell.Tab.0.bottom/0.0.3440.1400@0.0.3440.1400" timestamp="1620959887134" />
+    <state width="1949" height="379" key="GridCell.Tab.0.center" timestamp="1620959887134">
+      <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1620262496233" />
-    <state width="2630" height="384" key="GridCell.Tab.0.center/0.0.3440.1400@0.0.3440.1400" timestamp="1618272864043" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1620262496233">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1949" height="379" key="GridCell.Tab.0.center/0.0.3440.1400@0.0.3440.1400" timestamp="1620959887134" />
+    <state width="1949" height="379" key="GridCell.Tab.0.left" timestamp="1620959887134">
+      <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1620262496233" />
-    <state width="2630" height="384" key="GridCell.Tab.0.left/0.0.3440.1400@0.0.3440.1400" timestamp="1618272864043" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1620262496233">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1949" height="379" key="GridCell.Tab.0.left/0.0.3440.1400@0.0.3440.1400" timestamp="1620959887134" />
+    <state width="1949" height="379" key="GridCell.Tab.0.right" timestamp="1620959887134">
+      <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1620262496233" />
-    <state width="2630" height="384" key="GridCell.Tab.0.right/0.0.3440.1400@0.0.3440.1400" timestamp="1618272864043" />
-    <state x="461" y="168" key="SettingsEditor" timestamp="1618338102720">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1949" height="379" key="GridCell.Tab.0.right/0.0.3440.1400@0.0.3440.1400" timestamp="1620959887134" />
+    <state x="826" y="226" key="SettingsEditor" timestamp="1620944342808">
+      <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="461" y="168" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1618338102720" />
+    <state x="826" y="226" key="SettingsEditor/0.0.3440.1400@0.0.3440.1400" timestamp="1620944342808" />
     <state x="555" y="127" width="2611" height="1160" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1618262516793">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>

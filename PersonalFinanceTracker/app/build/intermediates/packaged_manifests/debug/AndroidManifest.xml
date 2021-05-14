@@ -19,7 +19,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.PersonalFinanceTracker" >
-        <activity android:name="com.peterparthimos.personalfinancetracker.Subscriptions" />
+        <activity android:name="com.peterparthimos.personalfinancetracker.Average" />
         <activity android:name="com.peterparthimos.personalfinancetracker.SetBudget" />
         <activity android:name="com.peterparthimos.personalfinancetracker.Register" />
         <activity android:name="com.peterparthimos.personalfinancetracker.Dashboard" />

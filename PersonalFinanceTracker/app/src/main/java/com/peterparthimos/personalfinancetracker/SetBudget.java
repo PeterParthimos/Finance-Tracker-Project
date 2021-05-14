@@ -33,7 +33,7 @@ public class SetBudget extends AppCompatActivity {
             public void onClick(View v) {
                 String nb = newBudget.getText().toString();
                 if (!nb.equals("")) {
-                    int budget = Integer.parseInt(nb);
+                    double budget = Double.parseDouble(nb);
                     boolean isUpdated = dbConnector.editBudget(User.username, budget);
                     if (isUpdated) {
                         User.budget = budget;

@@ -17,7 +17,6 @@ public class MyRecyclerViewAdapter extends RecyclerView.Adapter<MyRecyclerViewAd
     ArrayList<String> prices = new ArrayList<>();
     ArrayList<String> dates = new ArrayList<>();
     ArrayList<String> names = new ArrayList<>();
-
     Context c;
 
     public MyRecyclerViewAdapter(ArrayList<String> prices, ArrayList<String> dates,

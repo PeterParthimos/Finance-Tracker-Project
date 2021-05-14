@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PersonalFinanceTracker">
-        <activity android:name=".Subscriptions"></activity>
+        <activity android:name=".Average"></activity>
         <activity android:name=".SetBudget" />
         <activity android:name=".Register" />
         <activity android:name=".Dashboard" />

@@ -22,9 +22,9 @@ public class DBConnector extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        db.execSQL("CREATE TABLE " + TABLE_1_NAME + "(username text PRIMARY KEY UNIQUE, password text NOT NULL, fname text NOT NULL, lname text NOT NULL, budget integer NOT NULL, spent integer NOT NULL, average integer NOT NULL)");
-        db.execSQL("CREATE TABLE " + TABLE_2_NAME + "(purchaseId integer PRIMARY KEY AUTOINCREMENT, username text NOT NULL, amount integer NOT NULL, name text NOT NULL, purchaseDate text NOT NULL, FOREIGN KEY(username) REFERENCES users(username))");
-        db.execSQL("CREATE TABLE " + TABLE_3_NAME + "(subscriptionId integer PRIMARY KEY AUTOINCREMENT, username text NOT NULL, amount integer NOT NULL, name text NOT NULL, renewDate text NOT NULL, FOREIGN KEY(username) REFERENCES users(username))");
+        db.execSQL("CREATE TABLE " + TABLE_1_NAME + "(username text PRIMARY KEY UNIQUE, password text NOT NULL, fname text NOT NULL, lname text NOT NULL, budget double NOT NULL, spent double NOT NULL, average double NOT NULL)");
+        db.execSQL("CREATE TABLE " + TABLE_2_NAME + "(purchaseId integer PRIMARY KEY AUTOINCREMENT, username text NOT NULL, amount double NOT NULL, name text NOT NULL, purchaseDate date NOT NULL, FOREIGN KEY(username) REFERENCES users(username))");
+        db.execSQL("CREATE TABLE " + TABLE_3_NAME + "(subscriptionId integer PRIMARY KEY AUTOINCREMENT, username text NOT NULL, amount double NOT NULL, name double NOT NULL, renewDate integer NOT NULL, FOREIGN KEY(username) REFERENCES users(username))");
     }
 
     @Override
@@ -57,7 +57,15 @@ public class DBConnector extends SQLiteOpenHelper {
         return result;
     }
 
-    public boolean editBudget(String username, int newBudget) {
+    public void editUser(String username, double newAverage) {
+        SQLiteDatabase db = this.getWritableDatabase();
+        ContentValues values = new ContentValues();
+        values.put("spent", 0.0);
+        values.put("average", newAverage);
+        db.update(TABLE_1_NAME, values, "username = ?", new String[] {username});
+    }
+
+    public boolean editBudget(String username, double newBudget) {
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues values = new ContentValues();
         values.put("budget", newBudget);
@@ -65,7 +73,7 @@ public class DBConnector extends SQLiteOpenHelper {
         return true;
     }
 
-    public boolean addPurchase(String username, String name, int amount, String date) {
+    public boolean addPurchase(String username, String name, double amount, String date) {
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues values = new ContentValues();
         values.put("username", username);
@@ -80,7 +88,7 @@ public class DBConnector extends SQLiteOpenHelper {
     public Cursor getAllPurchases(String username, ArrayList<String> prices, ArrayList<String> dates, ArrayList<String> names) {
         SQLiteDatabase db = this.getReadableDatabase();
         Cursor c = db.rawQuery("SELECT amount, name, purchaseDate FROM " + TABLE_2_NAME
-                + " WHERE username = ?", new String[] {username});
+                + " WHERE username = ? ORDER BY purchaseId DESC", new String[] {username});
         if(c.moveToFirst()) {
             while(!c.isAfterLast()) {
                 prices.add(c.getString(c.getColumnIndex("amount")));
@@ -92,7 +100,7 @@ public class DBConnector extends SQLiteOpenHelper {
         return c;
     }
 
-    public boolean addSubscription(String username, String name, int amount, String renewDate) {
+    public boolean addSubscription(String username, String name, double amount, int renewDate) {
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues values = new ContentValues();
         values.put("username", username);
@@ -107,7 +115,7 @@ public class DBConnector extends SQLiteOpenHelper {
     public Cursor getAllSubscriptions(String username, ArrayList<String> prices, ArrayList<String> dates, ArrayList<String> names) {
         SQLiteDatabase db = this.getReadableDatabase();
         Cursor c = db.rawQuery("SELECT amount, name, renewDate FROM " + TABLE_3_NAME
-                + " WHERE username = ?", new String[] {username});
+                + " WHERE username = ? ORDER BY subscriptionId DESC", new String[] {username});
         if(c.moveToFirst()) {
             while(!c.isAfterLast()) {
                 prices.add(c.getString(c.getColumnIndex("amount")));
@@ -119,10 +127,10 @@ public class DBConnector extends SQLiteOpenHelper {
         return c;
     }
 
-    public boolean updateSpent(String username, int spent, int purchase) {
+    public boolean updateSpent(String username, double spent, double purchase) {
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues values = new ContentValues();
-        int finalSpent = spent + purchase;
+        double finalSpent = spent + purchase;
         values.put("spent", finalSpent);
         db.update(TABLE_1_NAME, values, "username = ?", new String[] {username});
         return true;

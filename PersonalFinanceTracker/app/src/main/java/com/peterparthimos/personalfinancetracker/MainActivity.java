@@ -15,6 +15,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import java.util.Calendar;
+
 public class MainActivity extends AppCompatActivity {
     Button login, register;
     EditText username, password;
@@ -50,13 +52,27 @@ public class MainActivity extends AppCompatActivity {
                     if (account.getCount() == 0) {
                         Toast.makeText(login.getContext(), "Invalid Login!", Toast.LENGTH_LONG).show();
                     } else {
+                        Calendar c = Calendar.getInstance();
+                        int dayOfMonth = c.get(Calendar.DAY_OF_MONTH);
                         account.moveToNext();
-                        User.username = account.getString(0);
-                        User.fname = account.getString(2);
-                        User.lname = account.getString(3);
-                        User.budget = Integer.parseInt(account.getString(4));
-                        User.spent = Integer.parseInt(account.getString(5));
-                        User.average = Integer.parseInt(account.getString(6));
+                        if (dayOfMonth == 1) {
+                            User.username = account.getString(0);
+                            User.fname = account.getString(2);
+                            User.lname = account.getString(3);
+                            User.budget = Double.parseDouble(account.getString(4));
+                            User.spent = 0.0;
+                            double spent = Double.parseDouble(account.getString(5));
+                            double preAvg = Double.parseDouble(account.getString(6));
+                            User.average = ((spent + preAvg) / 2);
+                            dbConnector.editUser(User.username, User.average);
+                        } else {
+                            User.username = account.getString(0);
+                            User.fname = account.getString(2);
+                            User.lname = account.getString(3);
+                            User.budget = Double.parseDouble(account.getString(4));
+                            User.spent = Double.parseDouble(account.getString(5));
+                            User.average = Double.parseDouble(account.getString(6));
+                        }
                         Intent x = new Intent(login.getContext(), Dashboard.class);
                         startActivity(x);
                     }
@@ -65,64 +81,4 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-/*
-
-    THIS IS WHAT WAS IN THE MAIN ACTIVITY
-    ALL IT DID FOR NOW IS CREATE A NOTIFICATION 2 SECONDS AFTER PRESSING THE BUTTON.
-
-    THE ALARM MANAGER ALLOWS YOUR APPLICATION TO DO SOMETHING IN THE FUTURE (EVEN IF IT'S CLOSED
-    IF I UNDERSTAND CORRECTLY)
-
-    THIS COULD BE USED TO CALCULATE MONTHLY AVERAGES OR FOR NOTIFICATIONS.
-
-    THE NOTIFICATION CHANNEL METHOD IS REQUIRED TO DISPLAY NOTIFICATIONS IN OUR VERSION OF ANDROID
-
-
-    RESOURCES TO HELP UNDERSTAND:
-    https://www.youtube.com/watch?v=nl-dheVpt8o&ab_channel=LemubitAcademy
-    https://proandroiddev.com/android-alarmmanager-as-deep-as-possible-909bd5b64792
-
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        createNotificationChannel();
-
-        Button button = findViewById(R.id.button);
-
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "Reminder Set!", Toast.LENGTH_SHORT).show();
-
-                Intent intent = new Intent(MainActivity.this, ReminderBroadcast.class);
-                PendingIntent pendingIntent = PendingIntent.getBroadcast(MainActivity.this, 0, intent, 0);
-
-                AlarmManager alarmManager = (AlarmManager) getSystemService(ALARM_SERVICE);
-
-                long timeAtButtonClick = System.currentTimeMillis();
-
-                long twoSecondsMillis = 1000 * 2;
-
-                alarmManager.set(AlarmManager.RTC_WAKEUP, timeAtButtonClick + twoSecondsMillis, pendingIntent);
-            }
-        });
-    }
-
-    private void createNotificationChannel() {
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            NotificationChannel channel = new NotificationChannel("Notification",
-                    "ReminderChannel", NotificationManager.IMPORTANCE_DEFAULT);
-            channel.setDescription("Channel for reminder");
-
-            NotificationManager notificationManager = getSystemService(NotificationManager.class);
-            notificationManager.createNotificationChannel(channel);
-        }
-
-    }
-
-
- */
-
 }
