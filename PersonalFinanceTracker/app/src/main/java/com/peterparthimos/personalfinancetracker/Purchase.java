@@ -37,6 +37,10 @@ public class Purchase extends AppCompatActivity implements DatePickerDialog.OnDa
         dateButton = findViewById(R.id.dateButton);
         isSubscription = findViewById(R.id.isSubscription);
 
+        Calendar c = Calendar.getInstance();
+
+        dateText.setText(DateFormat.getDateInstance(DateFormat.SHORT).format(c.getTime()));
+
         dateButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
